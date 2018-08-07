@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+
+article {
+    padding: 0 1em;
+/*    position: relative;*/
+}
+
+.section1 .course .title{
+    position: absolute;
+    left: 254px;
+    line-height: 20px;
+    
+}
+
+
+
+section {
+    margin: 1em;
+    padding: 1em;
+    
+}
+
+
+.section1 {
+    border-bottom: 1px solid #4e4a4a;
+     position: relative;
+}
+
+
+
+
+header {
+    max-width: 1600px;
+    padding: 2em;
+    text-align: center;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+
+header:hover .name {
+    color: #323434;
+    opacity: 0.7;
+}
+
+
+
+header:hover p {
+    color: #323434;
+    opacity: 0.7;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+header section {
+    margin: 0 auto;
+    min-width: 360px;
+    max-width: 640px;
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    margin: 1em 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+main section {
+    /*    border-bottom: 1px solid #4e4a4a;*/
+}
+
+
+
+
+}
+
+.skills {
+    padding-bottom: 30px;
+    list-style: none;
+    text-transform: uppercase;
+    
+
+}
+
+.skills ul {
+    list-style: none;
+    
+}
+
+.skill {
+    width: 50%;
+}
+
+.uni {
+    width: 50%;
+}
+
+.course {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.course .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #509e98;
+    max-width: 33%;
+   min-width: 600px;
+    
+   
+}
+
+.course .descrition {
+    -ms-flex: 0 0 66.6%;
+    flex: 0 0 66.6%;
+    max-width: 66.6%
+}
+
+.school span {
+    color: #509e98;
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    justify-content: center;
+    align-content:stretch;
+    border-bottom: 1px solid #509e98;
+    
+}
+
+.school span:hoover{
+    color: #1d5d58;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.projects:hover{
+    width: : 300px;
+}
+
+.projects img {
+    
+    max-width: 400px;
+    border-radius: 75%;
+    transition: 1s;
+}
+
+.projects img:hover {
+ -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+}
+    
+.projects div{
+    margin-top: 50px;
+}
+/*FOOTER*/
+
+footer {
+    font-size: 12px;
+    padding: 1em;
+    border-top: 1px solid #509e98;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: 0.2s;
+}
+
+
+footer:hover{
+    font-size: 1.1rem;
+}
